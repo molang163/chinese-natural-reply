@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#127A6A"/>
+  <path d="M138 112h236a58 58 0 0 1 58 58v136a58 58 0 0 1-58 58H250l-84 64v-64h-28a58 58 0 0 1-58-58V170a58 58 0 0 1 58-58z" fill="#FFFFFF"/>
+  <text x="256" y="300" text-anchor="middle" font-family="Noto Sans CJK SC" font-weight="900" font-size="176" fill="#127A6A">话</text>
+</svg>

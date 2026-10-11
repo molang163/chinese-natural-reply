@@ -1,0 +1,34 @@
+{
+  "name": "chinese-natural-reply",
+  "version": "1.0.0",
+  "description": "Plain, natural Chinese replies for Codex: answer first, no defensive hedging, no officialese, no canned comfort.",
+  "author": {
+    "name": "molang163",
+    "url": "https://github.com/molang163"
+  },
+  "homepage": "https://github.com/molang163/chinese-natural-reply",
+  "repository": "https://github.com/molang163/chinese-natural-reply",
+  "license": "MIT",
+  "keywords": ["chinese", "中文", "writing", "tone", "reply", "style"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "中文自然回应",
+    "shortDescription": "中文回复说人话，不说防御性的话",
+    "longDescription": "让 Codex 用中文回复时像熟人当面说话：先回答，说大白话。它会去掉为了显得严谨而加的防御性说明，比如“能确认的是……还不能确定”“没有证据表明……”；不提没发生的事，不替你纠正你并没有的误解，不打官腔，随口一问就简短回答，你心情不好时也不套安慰模板。没把握、又会影响你做决定的地方，它会用平常的口气说一次。它只管说话方式，不影响 Codex 查资料和干活。",
+    "developerName": "molang163",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://github.com/molang163/chinese-natural-reply",
+    "privacyPolicyURL": "https://github.com/molang163/chinese-natural-reply/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/molang163/chinese-natural-reply/blob/main/LICENSE",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "我开机时看到一行红字，要紧吗？",
+      "帮我把这段话改得像人话一点",
+      "这周作业多得写不完，好烦啊"
+    ],
+    "brandColor": "#127A6A",
+    "screenshots": []
+  }
+}

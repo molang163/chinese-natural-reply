@@ -117,14 +117,24 @@ GPT 评委排的 16 道题里，发布版赢了原版 14 道、talk-normal 13 �
 
 ## 安装
 
-在 Codex 里用：
+装成 Codex 插件：
+
+```bash
+codex plugin marketplace add molang163/chinese-natural-reply
+```
+
+```bash
+codex plugin add chinese-natural-reply@molang163
+```
+
+或者只装 skill：
 
 ```bash
 git clone https://github.com/molang163/chinese-natural-reply.git
 ```
 
 ```bash
-cp -r chinese-natural-reply/chinese-natural-reply ~/.codex/skills/
+cp -r chinese-natural-reply/skills/chinese-natural-reply ~/.codex/skills/
 ```
 
 新开一个对话就能用。用中文聊天时它会自动启用，第一次启用时会说一句“按中文自然回应来答。”
@@ -150,7 +160,9 @@ cp -r chinese-natural-reply/chinese-natural-reply ~/.codex/skills/
 
 ## 仓库里有什么
 
-- `chinese-natural-reply/`：skill 本体。
+- `skills/chinese-natural-reply/`：skill 本体。
+- `.codex-plugin/`、`.agents/plugins/`、`assets/`：Codex 插件的说明文件、插件源和图标。
+- `PRIVACY.md`：隐私说明。
 - `evals/prompts.json`：16 道题。
 - `evals/rubric.md`：评分标准。
 - `evals/answers/`：每道题、每个版本的回答。
