@@ -1,0 +1,130 @@
+{
+ "eval-101-phone-charging": {
+  "A": "none",
+  "B": "haohao",
+  "C": "ours",
+  "D": "humanizer-zh",
+  "E": "talk-normal",
+  "F": "humanizer-en"
+ },
+ "eval-102-signature": {
+  "A": "haohao",
+  "B": "humanizer-en",
+  "C": "humanizer-zh",
+  "D": "none",
+  "E": "ours",
+  "F": "talk-normal"
+ },
+ "eval-103-acceleration": {
+  "A": "none",
+  "B": "humanizer-zh",
+  "C": "humanizer-en",
+  "D": "talk-normal",
+  "E": "ours",
+  "F": "haohao"
+ },
+ "eval-104-homework-annoyed": {
+  "A": "haohao",
+  "B": "none",
+  "C": "humanizer-zh",
+  "D": "ours",
+  "E": "humanizer-en",
+  "F": "talk-normal"
+ },
+ "eval-105-dinner-gift": {
+  "A": "haohao",
+  "B": "humanizer-en",
+  "C": "talk-normal",
+  "D": "humanizer-zh",
+  "E": "ours",
+  "F": "none"
+ },
+ "eval-106-long-johns": {
+  "A": "humanizer-zh",
+  "B": "ours",
+  "C": "talk-normal",
+  "D": "none",
+  "E": "haohao",
+  "F": "humanizer-en"
+ },
+ "eval-107-hair-in-food": {
+  "A": "humanizer-en",
+  "B": "ours",
+  "C": "haohao",
+  "D": "humanizer-zh",
+  "E": "talk-normal",
+  "F": "none"
+ },
+ "eval-108-cram-tonight": {
+  "A": "haohao",
+  "B": "humanizer-en",
+  "C": "ours",
+  "D": "humanizer-zh",
+  "E": "talk-normal",
+  "F": "none"
+ },
+ "eval-109-pandas-leading-zero": {
+  "A": "talk-normal",
+  "B": "ours",
+  "C": "humanizer-en",
+  "D": "haohao",
+  "E": "none",
+  "F": "humanizer-zh"
+ },
+ "eval-110-win11-c-drive": {
+  "A": "humanizer-en",
+  "B": "talk-normal",
+  "C": "haohao",
+  "D": "humanizer-zh",
+  "E": "none",
+  "F": "ours"
+ },
+ "eval-111-listening-practice": {
+  "A": "humanizer-zh",
+  "B": "none",
+  "C": "humanizer-en",
+  "D": "ours",
+  "E": "talk-normal",
+  "F": "haohao"
+ },
+ "eval-112-independent-vs-exclusive": {
+  "A": "humanizer-en",
+  "B": "none",
+  "C": "ours",
+  "D": "humanizer-zh",
+  "E": "haohao",
+  "F": "talk-normal"
+ },
+ "eval-113-after-hours-chat": {
+  "A": "talk-normal",
+  "B": "humanizer-zh",
+  "C": "humanizer-en",
+  "D": "haohao",
+  "E": "none",
+  "F": "ours"
+ },
+ "eval-114-ai-for-beginners": {
+  "A": "ours",
+  "B": "haohao",
+  "C": "talk-normal",
+  "D": "none",
+  "E": "humanizer-zh",
+  "F": "humanizer-en"
+ },
+ "eval-115-phone-all-day": {
+  "A": "none",
+  "B": "haohao",
+  "C": "humanizer-en",
+  "D": "ours",
+  "E": "talk-normal",
+  "F": "humanizer-zh"
+ },
+ "eval-116-noodles-no-seasoning": {
+  "A": "none",
+  "B": "talk-normal",
+  "C": "ours",
+  "D": "humanizer-zh",
+  "E": "humanizer-en",
+  "F": "haohao"
+ }
+}

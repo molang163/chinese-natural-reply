@@ -1,0 +1,757 @@
+[
+ {
+  "q": 101,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "B",
+   "D",
+   "F",
+   "E",
+   "C",
+   "A"
+  ]
+ },
+ {
+  "q": 102,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "B",
+   "C",
+   "E",
+   "D",
+   "A",
+   "F"
+  ]
+ },
+ {
+  "q": 103,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "B",
+   "A",
+   "C",
+   "E",
+   "F"
+  ]
+ },
+ {
+  "q": 104,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「先喘口气，你想吐槽就说，我听着。」"
+   },
+   "B": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「想吐槽我就听着。」"
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「想吐槽就说，我听着。」"
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「想吐槽我就听着。」"
+   },
+   "F": {
+    "score": 3,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「先给自己几分钟喘口气」；「把眼前这一步走完就好。」"
+   }
+  },
+  "ranking": [
+   "D",
+   "E",
+   "B",
+   "C",
+   "A",
+   "F"
+  ]
+ },
+ {
+  "q": 105,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「别太有压力。」"
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "C",
+   "F",
+   "D",
+   "B",
+   "A"
+  ]
+ },
+ {
+  "q": 106,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：「但没有人人都必须穿的统一温度。」"
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 3,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：「没有统一的“几度必须穿秋裤”标准。」；「如果你平时身体健康、穿普通长裤」；「温度不是硬门槛」"
+   },
+   "E": {
+    "score": 4,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：「但没有人人通用的硬标准。」"
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：「没有人人适用的“秋裤温度线”」；「不是硬规定。」"
+   }
+  },
+  "ranking": [
+   "B",
+   "C",
+   "E",
+   "A",
+   "F",
+   "D"
+  ]
+ },
+ {
+  "q": 107,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「不用觉得不好意思。」"
+   },
+   "D": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「不用不好意思。」"
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "B",
+   "F",
+   "A",
+   "E",
+   "C",
+   "D"
+  ]
+ },
+ {
+  "q": 108,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「即使还没复习完，也建议把目标缩小到几个能拿分的重点，然后睡觉。」；「今晚不必把“全部看完”当作睡觉的前提。」"
+   }
+  },
+  "ranking": [
+   "E",
+   "C",
+   "A",
+   "B",
+   "D",
+   "F"
+  ]
+ },
+ {
+  "q": 109,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "D",
+   "B",
+   "A",
+   "C",
+   "F"
+  ]
+ },
+ {
+  "q": 110,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「设置后续自动清理」；「微软明确提醒，误删 WinSxS 可能导致无法启动；删 Installer 缓存可能让软件无法更新、修复或卸载。」"
+   },
+   "B": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「设置后续自动清理」；「为了保留人工核对的机会，回收站也可以设为“从不”，以后手动清理。」"
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「设置自动清理」；「把“下载文件夹”和“回收站”的自动删除都设为“从不”，继续自己检查后清理。」"
+   },
+   "D": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「设置自动清理」；「回收站也可先设为“从不”，由你手动检查清空。」"
+   },
+   "E": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「设置自动清理，避免又满」；「为了保守，“下载文件夹自动删除”和“回收站自动删除”都可以设为“从不”，自己检查后手动处理。」"
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「以后自动清临时文件」；「如果你习惯从回收站找回东西，回收站也设为“从不”，自己检查后清空。」"
+   }
+  },
+  "ranking": [
+   "F",
+   "C",
+   "D",
+   "E",
+   "A",
+   "B"
+  ]
+ },
+ {
+  "q": 111,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「暂时不用整篇听写，也不用每句都磨到百分之百。每天弄清两三处就行。」；「每周拿一段没练过、难度相近的材料听一次」"
+   },
+   "B": {
+    "score": 3,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「看稿核对时，尤其注意这三种情况」；「这个比“练熟的那段终于听懂了”更能说明进步。」"
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「先照这个安排练两周。每周挑一段同难度、没练过的材料」；「用这个判断进步。」"
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「核对时留意一个区别」；「避免把“背熟了这段”当成听力进步。」"
+   }
+  },
+  "ranking": [
+   "D",
+   "E",
+   "A",
+   "C",
+   "F",
+   "B"
+  ]
+ },
+ {
+  "q": 112,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "C",
+   "D",
+   "A",
+   "E",
+   "B"
+  ]
+ },
+ {
+  "q": 113,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "A",
+   "D",
+   "C",
+   "E",
+   "B"
+  ]
+ },
+ {
+  "q": 114,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「你甚至可以直接告诉它：“我正在学，先给提示；给了代码以后，再出一道类似的小题让我自己做。”」"
+   },
+   "B": {
+    "score": 3,
+    "flags": [
+     "D",
+     "L"
+    ],
+    "evidence": "D：「这些短期结果还不能断定长期会怎样。」；L：「文档也可以让 AI 帮你找入口」；「然后自己打开，核对实际用到的函数和参数。」"
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「判断有没有学会，可以隔天关掉聊天记录，试着做一个类似的小功能。能做出来、能解释、能修改，就是实在的进步。」"
+   },
+   "E": {
+    "score": 3,
+    "flags": [
+     "D",
+     "L"
+    ],
+    "evidence": "D：「对象、任务和测验时间不同，不能直接套到你身上。」；L：「我在学编程，请先解释思路、给提示，让我尝试。需要给代码时，用最小例子；最后出一道变式题，暂时别给答案。」"
+   },
+   "F": {
+    "score": 3,
+    "flags": [
+     "D",
+     "L"
+    ],
+    "evidence": "D：「也不用因为问得快就觉得自己在偷懒」；「它测的是短期理解，不能直接推成长期一定学不会。」；L：「问一句省下查文档的半天，挺值得。省下来的时间里，留一点给自己写、改、验证，你就有机会既推进项目，也学到东西。」"
+   }
+  },
+  "ranking": [
+   "C",
+   "A",
+   "D",
+   "B",
+   "E",
+   "F"
+  ]
+ },
+ {
+  "q": 115,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「今晚不用急着把今天补回来。」"
+   },
+   "B": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「没必要马上靠一个狠计划把今天补回来。」"
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「也不用急着把今天补回来。我陪你聊会儿。」"
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「我在，咱们就聊会儿。」"
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "F",
+   "E",
+   "A",
+   "B",
+   "C"
+  ]
+ },
+ {
+  "q": 116,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "D",
+   "C",
+   "B",
+   "A",
+   "F"
+  ]
+ }
+]

@@ -1,0 +1,114 @@
+[
+ {
+  "id": 101,
+  "name": "phone-charging",
+  "topic": "生活常识",
+  "author": "claude",
+  "prompt": "我室友说手机边充电边玩会把电池玩坏，真的假的"
+ },
+ {
+  "id": 102,
+  "name": "signature",
+  "topic": "表态评价",
+  "author": "claude",
+  "prompt": "我写的这个个性签名怎么样：“人间值得，我也值得”，会不会有点土"
+ },
+ {
+  "id": 103,
+  "name": "acceleration",
+  "topic": "学习",
+  "author": "claude",
+  "prompt": "物理的加速度和速度到底啥区别，我老分不清"
+ },
+ {
+  "id": 104,
+  "name": "homework-annoyed",
+  "topic": "情绪闲聊",
+  "author": "claude",
+  "prompt": "这周作业多得写不完，好烦啊"
+ },
+ {
+  "id": 105,
+  "name": "dinner-gift",
+  "topic": "人情往来",
+  "author": "claude",
+  "prompt": "明天要去朋友家吃饭，带点什么好啊，空手去会不会不太好"
+ },
+ {
+  "id": 106,
+  "name": "long-johns",
+  "topic": "生活常识",
+  "author": "claude",
+  "prompt": "我妈非让我穿秋裤，我觉得现在还不冷，到底多少度该穿啊"
+ },
+ {
+  "id": 107,
+  "name": "hair-in-food",
+  "topic": "生活维权",
+  "author": "claude",
+  "prompt": "外卖点了份麻辣烫，吃到一半发现有根头发，要不要找商家"
+ },
+ {
+  "id": 108,
+  "name": "cram-tonight",
+  "topic": "学习",
+  "author": "claude",
+  "prompt": "明天考试，今晚到底该不该熬夜复习"
+ },
+ {
+  "id": 109,
+  "name": "pandas-leading-zero",
+  "topic": "电脑或软件问题",
+  "author": "gpt",
+  "prompt": "我用 pandas 读 CSV，手机号前面那个 0 读完就没了，保存回去也没了……怎么让它老老实实按文本读啊？"
+ },
+ {
+  "id": 110,
+  "name": "win11-c-drive",
+  "topic": "电脑或软件问题",
+  "author": "gpt",
+  "prompt": "Win11 的 C 盘只剩 6G 了，但我也没装啥大东西啊。有没有比较稳的清理办法，别让我一顿删完电脑起不来了。"
+ },
+ {
+  "id": 111,
+  "name": "listening-practice",
+  "topic": "学习或知识问题",
+  "author": "gpt",
+  "prompt": "英语听力不开字幕跟天书一样，一开字幕又觉得每个词都认识，这种到底咋练啊，每天能抽二十分钟左右。"
+ },
+ {
+  "id": 112,
+  "name": "independent-vs-exclusive",
+  "topic": "学习或知识问题",
+  "author": "gpt",
+  "prompt": "概率里那个独立和互斥我老搞混，你拿生活里的事给我讲讲呗，先别上公式，我看到符号脑子就卡住了。"
+ },
+ {
+  "id": 113,
+  "name": "after-hours-chat",
+  "topic": "要它表态或评价",
+  "author": "gpt",
+  "prompt": "公司要求下班后群里消息也得及时回，说这叫责任心。我觉得挺扯的，你怎么看，别又说双方都有道理啊。"
+ },
+ {
+  "id": 114,
+  "name": "ai-for-beginners",
+  "topic": "要它表态或评价",
+  "author": "gpt",
+  "prompt": "你觉得新手一上来就用 AI 写代码靠谱吗？我朋友说这样根本学不会，但我自己查文档半天还不如问一句，有点纠结。"
+ },
+ {
+  "id": 115,
+  "name": "phone-all-day",
+  "topic": "情绪或闲聊",
+  "author": "gpt",
+  "prompt": "今天啥也没干成，光刷手机了，现在又开始心虚。你先别给我安排明天五点起床那种计划，陪我聊两句吧。"
+ },
+ {
+  "id": 116,
+  "name": "noodles-no-seasoning",
+  "topic": "情绪或闲聊",
+  "author": "gpt",
+  "prompt": "刚煮面忘了放调料，吃到一半才反应过来，我也是服了自己了哈哈。你说人怎么能一边吃一边完全没注意味道啊。"
+ }
+]

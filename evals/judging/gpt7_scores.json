@@ -1,0 +1,837 @@
+[
+ {
+  "q": 101,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "G",
+   "F",
+   "C",
+   "B",
+   "D",
+   "A",
+   "E"
+  ]
+ },
+ {
+  "q": 102,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "E",
+   "A",
+   "D",
+   "C",
+   "B",
+   "G"
+  ]
+ },
+ {
+  "q": 103,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "G",
+   "E",
+   "C",
+   "A",
+   "F",
+   "B"
+  ]
+ },
+ {
+  "q": 104,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「想吐槽就说，我听着。」"
+   },
+   "B": {
+    "score": 3,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「先喘口气，你想吐槽就说，我听着。」"
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「想吐槽我就听着。」"
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「先给自己几分钟喘口气」"
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「想吐槽我就听着。」"
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "G",
+   "F",
+   "C",
+   "A",
+   "E",
+   "B"
+  ]
+ },
+ {
+  "q": 105,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "G",
+   "C",
+   "F",
+   "A",
+   "B",
+   "E"
+  ]
+ },
+ {
+  "q": 106,
+  "answers": {
+   "A": {
+    "score": 3,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：「没有统一的“几度必须穿秋裤”标准。」；「如果你平时身体健康、穿普通长裤，可以这样粗略参考，温度不是硬门槛：」"
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：「但没有人人通用的硬标准。」"
+   },
+   "D": {
+    "score": 4,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：「没有人人适用的“秋裤温度线”」；「不是硬规定。」"
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：「但没有人人都必须穿的统一温度。」"
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "G",
+   "E",
+   "B",
+   "C",
+   "F",
+   "D",
+   "A"
+  ]
+ },
+ {
+  "q": 107,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "A",
+   "C",
+   "E",
+   "F",
+   "B",
+   "G"
+  ]
+ },
+ {
+  "q": 108,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "C",
+   "D",
+   "A",
+   "B",
+   "G",
+   "F"
+  ]
+ },
+ {
+  "q": 109,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "B",
+   "F",
+   "E",
+   "G",
+   "A",
+   "C"
+  ]
+ },
+ {
+  "q": 110,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「设置自动清理，避免又满」；「为了保守，“下载文件夹自动删除”和“回收站自动删除”都可以设为“从不”」"
+   },
+   "B": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「设置后续自动清理」；「回收站如果经常用来找回文件，也设为“从不”。」"
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「设置自动清理」；「回收站也可先设为“从不”，由你手动检查清空。」"
+   },
+   "D": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「设置后续自动清理。」；「为了保留人工核对的机会」"
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "G",
+   "E",
+   "C",
+   "B",
+   "A",
+   "D"
+  ]
+ },
+ {
+  "q": 111,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「看稿核对时，尤其注意这三种情况：」；「这个比“练熟的那段终于听懂了”更能说明进步。」"
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「核对时留意一个区别：」；「避免把“背熟了这段”当成听力进步。」"
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "A",
+   "E",
+   "C",
+   "G",
+   "D",
+   "F",
+   "B"
+  ]
+ },
+ {
+  "q": 112,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「咱们先记两句人话：」；「以后碰到题，就问自己：」；「你看，互斥其实对另一件事影响很大：一件发生了，另一件直接没机会了。」"
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "A",
+   "C",
+   "G",
+   "E",
+   "B",
+   "D",
+   "F"
+  ]
+ },
+ {
+  "q": 113,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "F",
+   "G",
+   "D",
+   "B",
+   "A",
+   "C"
+  ]
+ },
+ {
+  "q": 114,
+  "answers": {
+   "A": {
+    "score": 3,
+    "flags": [
+     "D",
+     "L"
+    ],
+    "evidence": "D：「不代表你偷懒。」；「对象、任务和测验时间不同，不能直接套到你身上。」；L：「我建议你这样用：」；「你也可以直接这样问 AI：」"
+   },
+   "B": {
+    "score": 3,
+    "flags": [
+     "D",
+     "L"
+    ],
+    "evidence": "D：「这些短期结果还不能断定长期会怎样。」；L：「文档也可以让 AI 帮你找入口：」；「你可以放心问 AI。每次省下查找的时间，拿一点来验证自己会不会，就更值得。」"
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 3,
+    "flags": [
+     "D",
+     "L"
+    ],
+    "evidence": "D：「也不用因为问得快就觉得自己在偷懒。」；「它测的是短期理解，不能直接推成长期一定学不会。」；L：「你也可以直接这样问：」；「省下来的时间里，留一点给自己写、改、验证，你就有机会既推进项目，也学到东西。」"
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「也不用每段代码都研究到底，重点放在你正在学的内容上。」；「能做出来、能解释、能修改，就是实在的进步。」"
+   },
+   "G": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「你甚至可以直接告诉它：」；「你朋友说的“根本学不会”，我觉得太绝对了。」"
+   }
+  },
+  "ranking": [
+   "E",
+   "C",
+   "G",
+   "F",
+   "B",
+   "A",
+   "D"
+  ]
+ },
+ {
+  "q": 115,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「也不用急着把今天补回来。我陪你聊会儿。」"
+   },
+   "B": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「今晚不用急着把今天补回来。」"
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「没必要马上靠一个狠计划把今天补回来。」"
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "C",
+   "G",
+   "E",
+   "D",
+   "F",
+   "B",
+   "A"
+  ]
+ },
+ {
+  "q": 116,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "G": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "A",
+   "F",
+   "D",
+   "G",
+   "B",
+   "C",
+   "E"
+  ]
+ }
+]
