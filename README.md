@@ -127,7 +127,13 @@ codex plugin marketplace add molang163/chinese-natural-reply
 codex plugin add chinese-natural-reply@molang163
 ```
 
-或者只装 skill：
+或者用 [skills.sh](https://skills.sh/) 的安装工具：
+
+```bash
+npx skills add molang163/chinese-natural-reply --agent codex --global
+```
+
+或者手动复制 skill：
 
 ```bash
 git clone https://github.com/molang163/chinese-natural-reply.git
