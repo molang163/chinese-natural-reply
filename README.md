@@ -145,6 +145,18 @@ cp -r chinese-natural-reply/skills/chinese-natural-reply ~/.codex/skills/
 
 新开一个对话就能用。用中文聊天时它会自动启用，第一次启用时会说一句“按中文自然回应来答。”
 
+### 长对话：再写进 AGENTS.md
+
+只装 skill，聊到后面几轮，GPT 偶尔又会解释自己刚才为什么那样说。再把 5 条核心规则写进 Codex 的全局 AGENTS.md，测下来就没再出现：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/molang163/chinese-natural-reply/main/skills/chinese-natural-reply/scripts/agents_md.py | python3 -
+```
+
+两段 4 轮的对话各跑 5 遍（GPT-6.1-Sol），后 3 轮里“解释自己”：只装 skill，30 轮里有 4 轮；加上 AGENTS.md，0 轮。GPT-6-Astra 跑了 2 遍，也是 0。
+
+规则写在 `~/.codex/AGENTS.md` 的两行标记之间，你原来写的内容不动，重复运行只会更新这一段。想撤掉，把命令最后的 `python3 -` 换成 `python3 - --remove`。
+
 只在 Codex CLI 0.162 + GPT-6.1-Sol / GPT-6-Astra 上测过，其他工具没试过。
 
 ## 怎么做出来的
@@ -162,11 +174,12 @@ cp -r chinese-natural-reply/skills/chinese-natural-reply ~/.codex/skills/
 - 同样的设置重跑，分数会有 0.1 左右的波动。
 - 所有回答和打分都公开在 [evals](evals)，可以自己判断。
 - “好”是按作者的偏好定的。你要是在意加粗、表格、链接，结论可能不一样。
-- 调 skill 时用的 15 道题和答案没放进来，那些答案里有作者电脑上的真实信息。
+- 长对话里被追问同一个没把握的点时，偶尔还会多补一句“没有承诺……”，写进 AGENTS.md 也没完全去掉。
+- 调 skill 时用的 15 道题和答案、长对话测试的记录没放进来，里面有作者电脑上的真实信息。
 
 ## 仓库里有什么
 
-- `skills/chinese-natural-reply/`：skill 本体。
+- `skills/chinese-natural-reply/`：skill 本体。`scripts/agents_md.py` 是把核心规则写进 AGENTS.md 的脚本。
 - `.codex-plugin/`、`.agents/plugins/`、`assets/`：Codex 插件的说明文件、插件源和图标。
 - `PRIVACY.md`：隐私说明。
 - `evals/prompts.json`：16 道题。
