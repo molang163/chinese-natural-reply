@@ -1,0 +1,711 @@
+[
+ {
+  "q": 101,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "B",
+   "F",
+   "E",
+   "C",
+   "A"
+  ]
+ },
+ {
+  "q": 102,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "F",
+   "D",
+   "C",
+   "B",
+   "A"
+  ]
+ },
+ {
+  "q": 103,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "C",
+   "F",
+   "B",
+   "E",
+   "A"
+  ]
+ },
+ {
+  "q": 104,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「先歇五分钟，缓口气」"
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "C",
+   "F",
+   "B",
+   "A",
+   "E",
+   "D"
+  ]
+ },
+ {
+  "q": 105,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「熟朋友之间空手去也很正常」"
+   }
+  },
+  "ranking": [
+   "D",
+   "A",
+   "C",
+   "B",
+   "E",
+   "F"
+  ]
+ },
+ {
+  "q": 106,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 4,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：「没有统一的“秋裤温度线”，粗略拿 10～15℃当提醒就行」"
+   }
+  },
+  "ranking": [
+   "E",
+   "B",
+   "A",
+   "D",
+   "C",
+   "F"
+  ]
+ },
+ {
+  "q": 107,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "A",
+   "C",
+   "F",
+   "B",
+   "E",
+   "D"
+  ]
+ },
+ {
+  "q": 108,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「哪怕还有不少没复习，也建议挑最可能拿分的基础内容补一轮，然后睡，不把“全部看完”当作今晚的目标。」"
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "A",
+   "F",
+   "B",
+   "C",
+   "E"
+  ]
+ },
+ {
+  "q": 109,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "B",
+   "E",
+   "D",
+   "C",
+   "A",
+   "F"
+  ]
+ },
+ {
+  "q": 110,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「这是微软提供的清理入口；保留旧系统是为了留下回退余地。」"
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "F",
+   "E",
+   "A",
+   "C",
+   "B"
+  ]
+ },
+ {
+  "q": 111,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：「每次都做到“这个词原来是这么读的”，比一直盯着字幕看更贴合你现在的卡点。」"
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「这种情况很常见」"
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "D",
+   "E",
+   "A",
+   "C",
+   "B"
+  ]
+ },
+ {
+  "q": 112,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "A",
+   "D",
+   "E",
+   "C",
+   "B",
+   "F"
+  ]
+ },
+ {
+  "q": 113,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "G"
+    ],
+    "evidence": "G：「工作做得好不好，应该看履职和结果」"
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "F",
+   "A",
+   "D",
+   "B",
+   "C"
+  ]
+ },
+ {
+  "q": 114,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 3,
+    "flags": [
+     "D",
+     "L"
+    ],
+    "evidence": "D：「它们不足以断言你一定会怎样」；L：「研究结果也有差异：一项新手编程实验未发现 AI 组一周后的学习成绩下降」"
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "A",
+   "C",
+   "D",
+   "F",
+   "B",
+   "E"
+  ]
+ },
+ {
+  "q": 115,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：「行，我陪你聊会儿」"
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "B",
+   "F",
+   "A",
+   "D",
+   "C",
+   "E"
+  ]
+ },
+ {
+  "q": 116,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "B",
+   "D",
+   "A",
+   "C",
+   "E",
+   "F"
+  ]
+ }
+]

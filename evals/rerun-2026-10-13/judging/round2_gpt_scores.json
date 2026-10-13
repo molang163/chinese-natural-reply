@@ -1,0 +1,700 @@
+[
+ {
+  "q": 101,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "C",
+   "E",
+   "A",
+   "F",
+   "B"
+  ]
+ },
+ {
+  "q": 102,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "A",
+   "B",
+   "D",
+   "E",
+   "C"
+  ]
+ },
+ {
+  "q": 103,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "C",
+   "F",
+   "A",
+   "B",
+   "D"
+  ]
+ },
+ {
+  "q": 104,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "先给自己几分钟喘口气"
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "F",
+   "B",
+   "D",
+   "C",
+   "A"
+  ]
+ },
+ {
+  "q": 105,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "C",
+   "D",
+   "E",
+   "A",
+   "B"
+  ]
+ },
+ {
+  "q": 106,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "D"
+    ],
+    "evidence": "这些是穿衣参考，不是硬性分界。"
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "E",
+   "D",
+   "A",
+   "B",
+   "C"
+  ]
+ },
+ {
+  "q": 107,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "A",
+   "D",
+   "B",
+   "F",
+   "E",
+   "C"
+  ]
+ },
+ {
+  "q": 108,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "没复习完会慌，很正常。"
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "E",
+   "B",
+   "C",
+   "A",
+   "D"
+  ]
+ },
+ {
+  "q": 109,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "B",
+   "C",
+   "D",
+   "F",
+   "A",
+   "E"
+  ]
+ },
+ {
+  "q": 110,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "清完再设置“存储感知”。……虚拟内存、休眠文件和还原点这轮先别碰。"
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "B",
+   "E",
+   "C",
+   "F",
+   "D",
+   "A"
+  ]
+ },
+ {
+  "q": 111,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "B",
+   "A",
+   "D",
+   "F",
+   "E",
+   "C"
+  ]
+ },
+ {
+  "q": 112,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "D",
+   "F",
+   "A",
+   "B",
+   "C"
+  ]
+ },
+ {
+  "q": 113,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "A",
+   "C",
+   "B",
+   "E",
+   "F",
+   "D"
+  ]
+ },
+ {
+  "q": 114,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "D",
+   "B",
+   "A",
+   "C",
+   "F"
+  ]
+ },
+ {
+  "q": 115,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "一天没干成啥，也不用今晚就给自己下结论。"
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "C",
+   "E",
+   "D",
+   "F",
+   "B",
+   "A"
+  ]
+ },
+ {
+  "q": 116,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "C",
+   "E",
+   "D",
+   "A",
+   "F",
+   "B"
+  ]
+ }
+]

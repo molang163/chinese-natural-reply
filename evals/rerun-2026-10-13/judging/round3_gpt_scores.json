@@ -1,0 +1,716 @@
+[
+ {
+  "q": 101,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "C",
+   "F",
+   "D",
+   "B",
+   "A"
+  ]
+ },
+ {
+  "q": 102,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "D",
+   "A",
+   "F",
+   "C",
+   "B"
+  ]
+ },
+ {
+  "q": 103,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "C",
+   "D",
+   "F",
+   "A",
+   "B",
+   "E"
+  ]
+ },
+ {
+  "q": 104,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：“先喘口气，不用立刻逼自己继续写。”"
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：“给自己留点喘气的空间。”"
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "D",
+   "C",
+   "F",
+   "B",
+   "E",
+   "A"
+  ]
+ },
+ {
+  "q": 105,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "D",
+   "C",
+   "B",
+   "E",
+   "A"
+  ]
+ },
+ {
+  "q": 106,
+  "answers": {
+   "A": {
+    "score": 4,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：“不是到了秋天就必须穿。”"
+   },
+   "B": {
+    "score": 4,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：“这只是穿衣参考”"
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 4,
+    "flags": [
+     "D"
+    ],
+    "evidence": "D：“但不是硬性门槛”"
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "F",
+   "C",
+   "B",
+   "A",
+   "D"
+  ]
+ },
+ {
+  "q": 107,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：“也不用觉得不好意思”"
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "A",
+   "E",
+   "D",
+   "C",
+   "B"
+  ]
+ },
+ {
+  "q": 108,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "C",
+   "E",
+   "A",
+   "B",
+   "D"
+  ]
+ },
+ {
+  "q": 109,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "C",
+   "F",
+   "D",
+   "A",
+   "B"
+  ]
+ },
+ {
+  "q": 110,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：“在“存储感知”里启用临时文件清理，把“下载文件夹”的自动删除设为**从不**；回收站也可以先设为“从不”，自己检查后再清。”"
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 3,
+    "flags": [
+     "G",
+     "L"
+    ],
+    "evidence": "G：“它关联升级后的回退功能”；L：“自动清理下载文件的选项设为「从不」；回收站也可设为「从不」，由你手动确认。”"
+   }
+  },
+  "ranking": [
+   "A",
+   "D",
+   "C",
+   "E",
+   "B",
+   "F"
+  ]
+ },
+ {
+  "q": 111,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "A",
+   "F",
+   "C",
+   "E",
+   "D",
+   "B"
+  ]
+ },
+ {
+  "q": 112,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "E",
+   "A",
+   "D",
+   "C",
+   "F",
+   "B"
+  ]
+ },
+ {
+  "q": 113,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：“你反感它，很正常。”"
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "D",
+   "A",
+   "B",
+   "C",
+   "E"
+  ]
+ },
+ {
+  "q": 114,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "L"
+    ],
+    "evidence": "L：“研究里两种情况都有：一项针对69名青少年新手的实验发现，AI提高了练习表现，独立修改代码的表现也没变差。”"
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 3,
+    "flags": [
+     "L",
+     "C"
+    ],
+    "evidence": "L：“所以你可以放心问。把省下来的查找时间，拿一点来动手试、解释给自己听，就很值得。”；C：“你查文档半天不如问一句，很正常。”"
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "F",
+   "D",
+   "A",
+   "B",
+   "C",
+   "E"
+  ]
+ },
+ {
+  "q": 115,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 4,
+    "flags": [
+     "C"
+    ],
+    "evidence": "C：“先不用急着把今天补回来，也不用立刻保证明天一定脱胎换骨。”"
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "B",
+   "F",
+   "E",
+   "D",
+   "A",
+   "C"
+  ]
+ },
+ {
+  "q": 116,
+  "answers": {
+   "A": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "B": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "C": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "D": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "E": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   },
+   "F": {
+    "score": 5,
+    "flags": [],
+    "evidence": ""
+   }
+  },
+  "ranking": [
+   "C",
+   "D",
+   "E",
+   "B",
+   "A",
+   "F"
+  ]
+ }
+]

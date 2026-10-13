@@ -1,0 +1,130 @@
+{
+ "eval-101-phone-charging": {
+  "A": "public",
+  "B": "none",
+  "C": "v3agents",
+  "D": "v2agents",
+  "E": "v3",
+  "F": "talk-normal"
+ },
+ "eval-102-signature": {
+  "A": "v2agents",
+  "B": "v3agents",
+  "C": "none",
+  "D": "v3",
+  "E": "talk-normal",
+  "F": "public"
+ },
+ "eval-103-acceleration": {
+  "A": "v2agents",
+  "B": "public",
+  "C": "v3agents",
+  "D": "none",
+  "E": "talk-normal",
+  "F": "v3"
+ },
+ "eval-104-homework-annoyed": {
+  "A": "talk-normal",
+  "B": "v3",
+  "C": "none",
+  "D": "v2agents",
+  "E": "public",
+  "F": "v3agents"
+ },
+ "eval-105-dinner-gift": {
+  "A": "talk-normal",
+  "B": "none",
+  "C": "v2agents",
+  "D": "v3",
+  "E": "v3agents",
+  "F": "public"
+ },
+ "eval-106-long-johns": {
+  "A": "talk-normal",
+  "B": "v3",
+  "C": "none",
+  "D": "v3agents",
+  "E": "v2agents",
+  "F": "public"
+ },
+ "eval-107-hair-in-food": {
+  "A": "v2agents",
+  "B": "public",
+  "C": "talk-normal",
+  "D": "v3agents",
+  "E": "v3",
+  "F": "none"
+ },
+ "eval-108-cram-tonight": {
+  "A": "talk-normal",
+  "B": "v2agents",
+  "C": "v3agents",
+  "D": "none",
+  "E": "public",
+  "F": "v3"
+ },
+ "eval-109-pandas-leading-zero": {
+  "A": "v3",
+  "B": "v3agents",
+  "C": "v2agents",
+  "D": "talk-normal",
+  "E": "public",
+  "F": "none"
+ },
+ "eval-110-win11-c-drive": {
+  "A": "none",
+  "B": "v3agents",
+  "C": "v3",
+  "D": "v2agents",
+  "E": "public",
+  "F": "talk-normal"
+ },
+ "eval-111-listening-practice": {
+  "A": "v3agents",
+  "B": "v2agents",
+  "C": "v3",
+  "D": "public",
+  "E": "talk-normal",
+  "F": "none"
+ },
+ "eval-112-independent-vs-exclusive": {
+  "A": "public",
+  "B": "v2agents",
+  "C": "none",
+  "D": "v3agents",
+  "E": "talk-normal",
+  "F": "v3"
+ },
+ "eval-113-after-hours-chat": {
+  "A": "talk-normal",
+  "B": "v2agents",
+  "C": "v3agents",
+  "D": "public",
+  "E": "v3",
+  "F": "none"
+ },
+ "eval-114-ai-for-beginners": {
+  "A": "v3",
+  "B": "v3agents",
+  "C": "public",
+  "D": "v2agents",
+  "E": "talk-normal",
+  "F": "none"
+ },
+ "eval-115-phone-all-day": {
+  "A": "none",
+  "B": "talk-normal",
+  "C": "v2agents",
+  "D": "v3",
+  "E": "v3agents",
+  "F": "public"
+ },
+ "eval-116-noodles-no-seasoning": {
+  "A": "v3",
+  "B": "talk-normal",
+  "C": "none",
+  "D": "v3agents",
+  "E": "v2agents",
+  "F": "public"
+ }
+}

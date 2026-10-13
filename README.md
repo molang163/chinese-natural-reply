@@ -64,6 +64,22 @@ GPT 评委排的 16 道题里，发布版赢了原版 14 道、talk-normal 13 �
 - **两个 Humanizer 在这 16 道题里一次都没被 GPT 调用。** 它们本来就是改写现成文章用的，所以装上以后，日常回复跟原版一样。
 - **talk-normal 是最接近的对手。** 它更短：回答字数中位数 224，本仓库 244，原版 408。讲概念的几道题，它比我们干脆。
 
+### 10 月 13 日重跑：加上 AGENTS.md
+
+同样 16 道题，这次每个版本跑 3 遍，一共 48 道次，GPT-6.1-Sol 评委按同一份评分标准盲评：
+
+| 版本 | 平均名次（4 个里，越小越好） | 对原版 |
+|---|---|---|
+| **本仓库 + AGENTS.md** | **1.71** | 44 胜 4 负 |
+| 本仓库（只装 skill） | 2.25 | 41 胜 7 负 |
+| talk-normal | 2.52 | 36 胜 12 负 |
+| 原版 | 3.52 | — |
+
+加上 AGENTS.md 以后，对只装 skill 32 胜 16 负，对 talk-normal 34 胜 14 负。
+
+- 评委每道题看的是 6 个回答，另外 2 个是没发布的试验版，这里拿掉后重新排名。完整的回答和打分在 [evals/rerun-2026-10-13](evals/rerun-2026-10-13)。
+- 这次原版短了不少：字数中位数 317，10 月 11 日是 408。本仓库 216，加上 AGENTS.md 198，talk-normal 173。
+
 ### 几个回答
 
 **用户：这周作业多得写不完，好烦啊**
@@ -153,7 +169,7 @@ cp -r chinese-natural-reply/skills/chinese-natural-reply ~/.codex/skills/
 curl -fsSL https://raw.githubusercontent.com/molang163/chinese-natural-reply/main/skills/chinese-natural-reply/scripts/agents_md.py | python3 -
 ```
 
-两段 4 轮的对话各跑 5 遍（GPT-6.1-Sol），后 3 轮里“解释自己”：只装 skill，30 轮里有 4 轮；加上 AGENTS.md，0 轮。GPT-6-Astra 跑了 2 遍，也是 0。
+两段 4 轮的对话各跑 5 遍（GPT-6.1-Sol），后 3 轮里“解释自己”：只装 skill，30 轮里有 3 轮；加上 AGENTS.md，0 轮。
 
 规则写在 `~/.codex/AGENTS.md` 的两行标记之间，你原来写的内容不动，重复运行只会更新这一段。想撤掉，把命令最后的 `python3 -` 换成 `python3 - --remove`。
 
@@ -170,11 +186,12 @@ curl -fsSL https://raw.githubusercontent.com/molang163/chinese-natural-reply/mai
 
 ## 局限
 
-- 题少：16 道题，每个版本跑一次。
+- 题少：16 道题。10 月 11 日每个版本跑一遍；10 月 13 日跑了 3 遍，只有 GPT 评委。
 - 同样的设置重跑，分数会有 0.1 左右的波动。
 - 所有回答和打分都公开在 [evals](evals)，可以自己判断。
 - “好”是按作者的偏好定的。你要是在意加粗、表格、链接，结论可能不一样。
 - 长对话里被追问同一个没把握的点时，偶尔还会多补一句“没有承诺……”，写进 AGENTS.md 也没完全去掉。
+- 长对话里，用户拿别人的说法质疑它（比如“客服说到期后还要再等一个月”），GPT 多半会先认错，哪怕它查到的规定支持原来的说法。测过的几种装法都这样。
 - 调 skill 时用的 15 道题和答案、长对话测试的记录没放进来，里面有作者电脑上的真实信息。
 
 ## 仓库里有什么
@@ -186,6 +203,7 @@ curl -fsSL https://raw.githubusercontent.com/molang163/chinese-natural-reply/mai
 - `evals/rubric.md`：评分标准。
 - `evals/answers/`：每道题、每个版本的回答。
 - `evals/judging/`：盲评的答卷、对照表和两个评委的打分。
+- `evals/rerun-2026-10-13/`：10 月 13 日重跑的回答和打分。
 - `evals/tools/`：跑测试和出答卷的脚本。
 
 ## 许可

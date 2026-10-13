@@ -35,12 +35,17 @@ def make_repo(fixture, skill_dir):
     else:
         with open(os.path.join(project, "README.md"), "w") as fh:
             fh.write("# notes\n")
-    if skill_dir and os.path.isfile(skill_dir):
-        # prompt-style projects (e.g. talk-normal) are installed as an always-on AGENTS.md block
-        with open(os.path.join(root, "AGENTS.md"), "w") as fh:
-            fh.write("# --- talk-normal BEGIN ---\n" + open(skill_dir).read().strip() + "\n# --- talk-normal END ---\n")
-    elif skill_dir:
-        shutil.copytree(skill_dir, os.path.join(root, ".agents", "skills", skill_name(skill_dir)))
+    # a config can combine sources with "+": skill folders go to .agents/skills, files become the repo's AGENTS.md
+    for src in (skill_dir or "").split("+"):
+        if src and os.path.isfile(src) and os.path.basename(src) == "prompt.md":
+            # prompt-style projects (e.g. talk-normal) are installed as an always-on AGENTS.md block
+            with open(os.path.join(root, "AGENTS.md"), "a") as fh:
+                fh.write("# --- talk-normal BEGIN ---\n" + open(src).read().strip() + "\n# --- talk-normal END ---\n")
+        elif src and os.path.isfile(src):
+            with open(os.path.join(root, "AGENTS.md"), "a") as fh:
+                fh.write(open(src).read())
+        elif src:
+            shutil.copytree(src, os.path.join(root, ".agents", "skills", skill_name(src)))
     git = ["git", "-c", "user.name=tester", "-c", "user.email=tester@localhost"]
     subprocess.run(["git", "init", "-q"], cwd=root, check=True)
     subprocess.run(git + ["add", "-A"], cwd=root, check=True)
@@ -91,17 +96,23 @@ def run_one(ev, config, skill_dir, iteration, model, effort, timeout):
                       fh, ensure_ascii=False, indent=2)
     root, project = make_repo(ev.get("fixture"), skill_dir)
     cmd = [
-        "codex", "exec", "-m", model, "-c", f'model_reasoning_effort="{effort}"',
+        "codex", "exec", "-m", model, "-c", f'model_reasoning_effort="{effort}"', "-c", 'service_tier="default"',
         "-c", f'skills.config=[{{path="{GLOBAL_SKILL}", enabled=false}}]',
         "--ephemeral", "--json", "-s", "workspace-write", "-C", project,
         "-o", os.path.join(run_dir, "last_message.md"), ev["prompt"],
     ]
-    t0 = time.time()
-    with open(os.path.join(run_dir, "events.jsonl"), "w") as out, open(os.path.join(run_dir, "stderr.txt"), "w") as err:
-        try:
-            rc = subprocess.run(cmd, stdin=subprocess.DEVNULL, stdout=out, stderr=err, timeout=timeout).returncode
-        except subprocess.TimeoutExpired:
-            rc = "timeout"
+    # the local Codex bridge sometimes drops the connection (426 Upgrade Required); each run is a fresh
+    # ephemeral session, so trying again is safe
+    for attempt in range(3):
+        t0 = time.time()
+        with open(os.path.join(run_dir, "events.jsonl"), "w") as out, open(os.path.join(run_dir, "stderr.txt"), "w") as err:
+            try:
+                rc = subprocess.run(cmd, stdin=subprocess.DEVNULL, stdout=out, stderr=err, timeout=timeout).returncode
+            except subprocess.TimeoutExpired:
+                rc = "timeout"
+        if rc == 0 or "failed to connect" not in open(os.path.join(run_dir, "stderr.txt"), errors="replace").read():
+            break
+        time.sleep(10)
     dur = time.time() - t0
     messages, commands, usage, skill_read = parse_events(os.path.join(run_dir, "events.jsonl"))
     final = messages[-1] if messages else ""
@@ -136,7 +147,8 @@ def main():
     configs = []
     for c in args.config:
         name, _, sk = c.partition("=")
-        configs.append((name, os.path.join(WS, sk) if sk and not os.path.isabs(sk) else (sk or None)))
+        srcs = [s if os.path.isabs(s) else os.path.join(WS, s) for s in sk.split("+")] if sk else []
+        configs.append((name, "+".join(srcs) or None))
     jobs = [(e, n, s) for e in evals for (n, s) in configs]
     print(f"{len(jobs)} runs, parallel={args.parallel}, model={args.model}/{args.effort}", flush=True)
     with cf.ThreadPoolExecutor(args.parallel) as pool:
