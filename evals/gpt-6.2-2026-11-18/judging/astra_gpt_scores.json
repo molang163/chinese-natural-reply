@@ -1,0 +1,514 @@
+[
+  {
+    "q": 101,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ]
+  },
+  {
+    "q": 102,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "A",
+      "D",
+      "C",
+      "B"
+    ]
+  },
+  {
+    "q": 103,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "C",
+      "D",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "q": 104,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 4,
+        "flags": [
+          "C"
+        ],
+        "evidence": "想吐槽就说，我听着。"
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  {
+    "q": 105,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "B",
+      "D",
+      "C",
+      "A"
+    ]
+  },
+  {
+    "q": 106,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "C",
+      "A",
+      "D",
+      "B"
+    ]
+  },
+  {
+    "q": 107,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "q": 108,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  {
+    "q": 109,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "C",
+      "D",
+      "A",
+      "B"
+    ]
+  },
+  {
+    "q": 110,
+    "answers": {
+      "A": {
+        "score": 4,
+        "flags": [
+          "L"
+        ],
+        "evidence": "把「存储」页**最大的三项名称和各自占多少 GB** 发来，我可以帮你判断下一步查哪里。"
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ]
+  },
+  {
+    "q": 111,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 4,
+        "flags": [
+          "L"
+        ],
+        "evidence": "第一次听就能多抓住几个短语，或者能说清“他为什么这么说”，这比把一段熟材料背下来更能看出进步。"
+      }
+    },
+    "ranking": [
+      "B",
+      "C",
+      "A",
+      "D"
+    ]
+  },
+  {
+    "q": 112,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "B",
+      "D",
+      "C",
+      "A"
+    ]
+  },
+  {
+    "q": 113,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 4,
+        "flags": [
+          "G"
+        ],
+        "evidence": "把这说成“责任心”，等于把公司的排班问题变成了对你工作态度的评价。"
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ]
+  },
+  {
+    "q": 114,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 4,
+        "flags": [
+          "L"
+        ],
+        "evidence": "就算看了完整答案，也可以改个小需求试试。比如把“满 100 元免运费”改成“超过 100 元才免”，再拿刚好 100 元的订单跑一遍。"
+      },
+      "C": {
+        "score": 4,
+        "flags": [
+          "L"
+        ],
+        "evidence": "有个 Python 入门实验，每道题写完后，学生都得自己改一遍代码。能用 AI 的那组做完了更多题，一周后独立测验，两组成绩差不多。"
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "q": 115,
+    "answers": {
+      "A": {
+        "score": 4,
+        "flags": [
+          "C"
+        ],
+        "evidence": "咱俩随便聊会儿。"
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 4,
+        "flags": [
+          "C"
+        ],
+        "evidence": "咱俩随便聊会儿"
+      }
+    },
+    "ranking": [
+      "C",
+      "B",
+      "A",
+      "D"
+    ]
+  },
+  {
+    "q": 116,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "C",
+      "A",
+      "B"
+    ]
+  }
+]

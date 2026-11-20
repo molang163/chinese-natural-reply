@@ -30,20 +30,27 @@ A Codex (GPT) skill for Chinese conversations: answer first, talk plainly, and d
 
 ### 怎么比的
 
-16 道日常问题，调 skill 时一道都没用过。8 道是 Claude 出的，另外 8 道是 GPT 在不知道评分标准的情况下出的。每个版本每题跑一次，模型是 GPT-6.1-Sol（推理强度 max），在 Codex CLI 里跑。
+16 道日常问题，调 skill 时一道都没用过：8 道是 Claude 出的，另外 8 道是 GPT 在不知道评分标准的情况下出的。每道题的回答打乱顺序、去掉名字，由评委按同一份[评分标准](evals/rubric.md)独立盲评。
 
-参加对比的：
+### 最新实测：GPT-6.2 Sol 和 Astra（11 月 18 日）
 
-- 原版：不加任何 skill。
-- 本仓库。
-- 4 个同类：[talk-normal](https://github.com/hexiecs/talk-normal)、[好好说话](https://github.com/Job-Yang/jobyang-ai-skills/tree/main/skills/haohao-shuohua)、[Humanizer-zh](https://github.com/op7418/Humanizer-zh)、[humanizer](https://github.com/blader/humanizer)。每个都按原作者的装法装。
+在 Codex CLI `0.169.0`、`max` 推理档下，用同样的 16 道日常题对比 4 种装法（每种跑 1 遍），由 **Gemini** 和 **GPT-6.2 Sol** 两位评委各自独立盲评：
 
-每道题的回答打乱顺序、去掉名字，两个评委按同一份[评分标准](evals/rubric.md)盲评：
+| 版本 | 6.2 Sol 平均名次（Gemini / GPT，4 个里越小越好） | 6.2 Astra 平均名次（Gemini / GPT） |
+|---|---|---|
+| **本仓库 + AGENTS.md** | **1.62 / 1.94** | **1.81 / 1.94** |
+| 本仓库（只装 skill） | 2.38 / 2.31 | 1.94 / 2.31 |
+| talk-normal | 3.12 / 2.88 | 2.88 / 2.62 |
+| 原版（不加 skill） | 2.88 / 2.88 | 3.38 / 3.12 |
 
-- Claude：先把分数写进文件，再看哪个回答对应哪个版本。
-- GPT-6.1-Sol：独立再评一遍。
+- **日常题两两胜负（16 题）**：`本仓库 + AGENTS.md` 在 Sol 上赢原版 **13:3**（GPT 评 **12:4**）、赢 [talk-normal](https://github.com/hexiecs/talk-normal) **13:3**（GPT 评 **12:4**）；在 Astra 上赢原版 **15:1**（GPT 评 **14:2**）、赢 talk-normal **12:4**（GPT 评 **10:6**）。
+- **实战场景差距更大**：6.2 原版闲聊确实变短了不少（Sol 字数中位数 139，10 月 6.1 是 317），但一到改代码、读项目文档、估工期、问法律或系统故障边界这类实战题，防御性说明和官腔又会冒出来。10 道 Sol 实战题上，`本仓库 + AGENTS.md` 对原版 **10:0**（GPT 评 **9:1**）；4 道 Astra 实战题上，两位评委都是 **4:0**。
+- **按住 6.2 乱画交互网页**：随口问「物理的加速度和速度到底啥区别」，Sol 原版和只装 skill 都会调内置可视化去写 5～6 分钟的交互网页；加上 AGENTS.md 后，约 1 分半用开车的例子直接讲完。
+- 16 道日常题的完整回答、匿名答卷和双评委打分在 [evals/gpt-6.2-2026-11-18](evals/gpt-6.2-2026-11-18)。
 
-### 结果
+### 此前对比：GPT-6.1-Sol（10 月，含 4 个同类对比）
+
+10 月 11 日在 GPT-6.1-Sol（`max`）上把原版、本仓库和 4 个同类一起跑了 16 道日常题：[talk-normal](https://github.com/hexiecs/talk-normal)、[好好说话](https://github.com/Job-Yang/jobyang-ai-skills/tree/main/skills/haohao-shuohua)、[Humanizer-zh](https://github.com/op7418/Humanizer-zh)、[humanizer](https://github.com/blader/humanizer)（每个都按原作者的装法装），由 **Claude** 和 **GPT-6.1-Sol** 独立盲评：
 
 | 版本 | GPT 评委平均名次（7 个里，越小越好） | GPT 评委平均分 | Claude 评委平均分 |
 |---|---|---|---|
@@ -55,18 +62,11 @@ A Codex (GPT) skill for Chinese conversations: answer first, talk plainly, and d
 | 好好说话 | 5.00 | 4.56 | 3.78 |
 | 原版 | 5.25 | 4.50 | 3.66 |
 
-GPT 评委排的 16 道题里，发布版赢了原版 14 道、talk-normal 13 道、好好说话 14 道。GPT 打分普遍偏高，看名次更准。
+- GPT 评委排的 16 道题里，发布版赢了原版 14 道、talk-normal 13 道、好好说话 14 道（GPT 打分普遍偏高，看名次更准）。
+- “测试版”是发布前的同一份规则，只是例子里还有作者的个人信息。Claude 评委评的是测试版那一轮（6 个版本），测试版对原版 11 胜 3 平 2 负、对 talk-normal 6 胜 7 平 3 负；换掉个人信息后发布版重跑了一遍，由 GPT 评委 7 个版本一起重评。
+- **两个 Humanizer 在这 16 道题里一次都没被 GPT 调用**——它们本来就是改写现成文章用的，日常回复跟原版一样。**talk-normal 是最接近的对手**，回答更短（字数中位数 224，本仓库 244，原版 408）。
 
-“测试版”是发布前的同一份规则，只是例子里还有作者的个人信息。Claude 评委评的是测试版那一轮（6 个版本）；换掉个人信息之后，发布版重跑了一遍，由 GPT 评委 7 个版本一起重评。Claude 评委那轮，测试版对原版 11 胜 3 平 2 负，对 talk-normal 6 胜 7 平 3 负。
-
-几点说明：
-
-- **两个 Humanizer 在这 16 道题里一次都没被 GPT 调用。** 它们本来就是改写现成文章用的，所以装上以后，日常回复跟原版一样。
-- **talk-normal 是最接近的对手。** 它更短：回答字数中位数 224，本仓库 244，原版 408。讲概念的几道题，它比我们干脆。
-
-### 10 月 13 日重跑：加上 AGENTS.md
-
-同样 16 道题，这次每个版本跑 3 遍，一共 48 道次，GPT-6.1-Sol 评委按同一份评分标准盲评：
+10 月 13 日加上 AGENTS.md 后，同样 16 道题每个版本跑 3 遍（共 48 道次），由 GPT-6.1-Sol 盲评：
 
 | 版本 | 平均名次（4 个里，越小越好） | 对原版 |
 |---|---|---|
@@ -75,27 +75,7 @@ GPT 评委排的 16 道题里，发布版赢了原版 14 道、talk-normal 13 �
 | talk-normal | 2.52 | 36 胜 12 负 |
 | 原版 | 3.52 | — |
 
-加上 AGENTS.md 以后，对只装 skill 32 胜 16 负，对 talk-normal 34 胜 14 负。
-
-- 评委每道题看的是 6 个回答，另外 2 个是没发布的试验版，这里拿掉后重新排名。完整的回答和打分在 [evals/rerun-2026-10-13](evals/rerun-2026-10-13)。
-- 这次原版短了不少：字数中位数 317，10 月 11 日是 408。本仓库 216，加上 AGENTS.md 198，talk-normal 173。
-
-### 11 月 18 日实测 GPT-6.2 Sol 和 Astra
-
-用 Codex CLI 0.169.0、`max` 推理档重跑了同样的 16 道日常题，每个模型、每种装法各答一遍。原版、只装本仓库、装本仓库再加 AGENTS.md、talk-normal 四组回答打乱顺序，由子代理和 GPT-6.2 Sol 各自盲评。两位评委都把「本仓库 + AGENTS.md」的平均名次排在第一。
-
-下表只比「本仓库 + AGENTS.md」和原版。比如 13/16 表示 16 道题里，评委有 13 道把「本仓库 + AGENTS.md」排在原版前面。实战题包括改代码、读项目文档和估工期。
-
-| 模型 | 题目 | 子代理评委 | GPT-6.2 Sol 评委 |
-|---|---|---:|---:|
-| Sol | 日常题 | 13/16 | 12/16 |
-| Astra | 日常题 | 15/16 | 14/16 |
-| Sol | 实战题 | 10/10 | 9/10 |
-| Astra | 实战题 | 4/4 | 4/4 |
-
-比如问「加速度和速度到底啥区别」，Sol 原版和只装 skill 的那次都做了交互演示，分别花了约 6 分钟和 5 分钟。加上 AGENTS.md 的那次，Sol 用开车的例子直接讲清楚了，花了约 1 分半。
-
-主测用的是旧版 AGENTS.md。它要求“第一句就回答”，有时模型还在发进度消息就把答案讲完，正式回复又说一遍。1.0.3 把这句改成“正式回复第一句就回答”。改后用 4 道题复测了 5 次，覆盖 Sol 的 `low`、`max` 和 Astra 的 `low`，这 5 次都把答案留到了正式回复。
+加上 AGENTS.md 后，对只装 skill 32 胜 16 负，对 talk-normal 34 胜 14 负（评委实际看的是含 2 个未发布试验版在内的 6 个回答，这里拿掉后重新排名，完整记录在 [evals/rerun-2026-10-13](evals/rerun-2026-10-13)）。
 
 ### 几个回答
 
@@ -146,7 +126,7 @@ GPT 评委排的 16 道题里，发布版赢了原版 14 道、talk-normal 13 �
 >
 > 不过，人发朋友圈也经常这样写，AI 恰好学的就是这类表达。**这句话能让我判断它的文案风格，却不足以判断作者身份。**“写得顺、略有套路”都不是 AI 独有的特征。
 
-16 道题、每个版本的完整回答都在 [evals/answers](evals/answers)。
+16 道题、每个版本的完整回答都在 [evals/answers](evals/answers)（6.1）、[evals/rerun-2026-10-13](evals/rerun-2026-10-13)（6.1 重跑）和 [evals/gpt-6.2-2026-11-18](evals/gpt-6.2-2026-11-18)（6.2）。
 
 ## 安装
 
@@ -178,19 +158,19 @@ cp -r chinese-natural-reply/skills/chinese-natural-reply ~/.codex/skills/
 
 新开一个对话就能用。用中文聊天时它会自动启用，第一次启用时会说一句“按中文自然回应来答。”
 
-### 长对话：再写进 AGENTS.md
+### 推荐同时写进 AGENTS.md
 
-只装 skill，聊到后面几轮，GPT 偶尔又会解释自己刚才为什么那样说。再把 5 条核心规则写进 Codex 的全局 AGENTS.md，测下来就没再出现：
+只装 skill，聊到后面几轮 GPT 偶尔会退回去解释自己刚才为什么那样说；在 GPT-6.2 上，加上 AGENTS.md 还能把随口问的概念题稳稳按住，不乱花几分钟画交互网页。跑下面这条命令把 5 条核心规则写进全局 `~/.codex/AGENTS.md`：
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/molang163/chinese-natural-reply/main/skills/chinese-natural-reply/scripts/agents_md.py | python3 -
 ```
 
-两段 4 轮的对话各跑 5 遍（GPT-6.1-Sol），后 3 轮里“解释自己”：只装 skill，30 轮里有 3 轮；加上 AGENTS.md，0 轮。
+- 两段 4 轮对话各跑 5 遍（GPT-6.1-Sol），后 3 轮里“解释自己”：只装 skill，30 轮里有 3 轮；加上 AGENTS.md，0 轮。
+- **v1.0.3 更新**：第一条改成明确区分“正式回复”和“中途进度消息”，修掉了 GPT-6.2（尤其是 `low` 档）偶尔在进度消息里提前把答案说一遍、正式回复又说一遍的问题（改后 4 道题复测 5 次，覆盖 Sol `low`/`max` 和 Astra `low`，全部把答案留到了正式回复）。以前装过的重跑上面那条命令就会自动更新。
+- 规则写在 `~/.codex/AGENTS.md` 的两行标记之间，你原来写的内容不动。想撤掉，把命令最后的 `python3 -` 换成 `python3 - --remove`。
 
-规则写在 `~/.codex/AGENTS.md` 的两行标记之间，你原来写的内容不动，重复运行只会更新这一段。想撤掉，把命令最后的 `python3 -` 换成 `python3 - --remove`。
-
-10 月用 Codex CLI 0.162 测了 GPT-6.1-Sol 和 GPT-6-Astra，11 月用 CLI 0.169.0 测了 GPT-6.2 Sol 和 Astra。
+10 月在 Codex CLI `0.162` 测了 GPT-6.1-Sol 和 GPT-6-Astra，11 月在 Codex CLI `0.169.0` 测了 GPT-6.2 Sol 和 Astra，其他工具没试过。
 
 ## 怎么做出来的
 
@@ -203,24 +183,24 @@ curl -fsSL https://raw.githubusercontent.com/molang163/chinese-natural-reply/mai
 
 ## 局限
 
-- 日常题只有 16 道。10 月 11 日每个版本跑一遍，10 月 13 日跑了 3 遍，只有 GPT 评委。11 月的 6.2 日常题每种装法跑了一遍，实战题在 Sol 上测了 10 道，在 Astra 上测了其中 4 道。
+- 日常题只有 16 道：10 月 11 日每个版本跑 1 遍，10 月 13 日跑 3 遍（仅 GPT 评委），11 月 18 日在 GPT-6.2 Sol 和 Astra 上各跑 1 遍（Gemini 与 GPT-6.2 Sol 双盲评）；6.2 实战题在 Sol 上测了 10 道，在 Astra 上测了其中 4 道。
 - 同样的设置重跑，分数会有 0.1 左右的波动。
-- 10 月两轮日常题的回答和打分都公开在 [evals](evals)，可以自己判断。
+- 三轮日常题的回答和打分都公开在 [evals](evals)，可以自己判断。
 - “好”是按作者的偏好定的。你要是在意加粗、表格、链接，结论可能不一样。
-- 长对话里被追问同一个没把握的点时，偶尔还会多补一句“没有承诺……”，写进 AGENTS.md 也没完全去掉。
-- 长对话里，用户拿别人的说法质疑它（比如“客服说到期后还要再等一个月”），GPT 多半会先认错，哪怕它查到的规定支持原来的说法。测过的几种装法都这样。
-- 调 skill 时用的 15 道题和答案、长对话测试的记录没放进来，里面有作者电脑上的真实信息。
+- 长对话里被追问同一个没把握的点时，6.1 上偶尔还会多补一句“没有承诺……”（6.2 抽测未再出现，但样本较小）。
+- 长对话里，用户拿别人的说法质疑它（比如“客服说到期后还要再等一个月”），GPT 多半会先认错，哪怕它查到的规定支持原来的说法。测过的几种装法和 6.2 都这样。
+- 调 skill 时用的 15 道题和实战题答案、长对话测试的记录没放进来，里面有作者电脑上的真实信息。
 
 ## 仓库里有什么
 
 - `skills/chinese-natural-reply/`：skill 本体。`scripts/agents_md.py` 是把核心规则写进 AGENTS.md 的脚本。
 - `.codex-plugin/`、`.agents/plugins/`、`assets/`：Codex 插件的说明文件、插件源和图标。
 - `PRIVACY.md`：隐私说明。
-- `evals/prompts.json`：16 道题。
+- `evals/prompts.json`：16 道日常题。
 - `evals/rubric.md`：评分标准。
-- `evals/answers/`：每道题、每个版本的回答。
-- `evals/judging/`：盲评的答卷、对照表和两个评委的打分。
-- `evals/rerun-2026-10-13/`：10 月 13 日重跑的回答和打分。
+- `evals/answers/`、`evals/judging/`：10 月 11 日（GPT-6.1-Sol 7 版本）的回答、答卷、对照表和双评委打分。
+- `evals/rerun-2026-10-13/`：10 月 13 日（GPT-6.1-Sol + AGENTS.md，每题 3 遍）的回答和打分。
+- `evals/gpt-6.2-2026-11-18/`：11 月 18 日（GPT-6.2 Sol / Astra）的回答、答卷、对照表和双评委打分。
 - `evals/tools/`：跑测试和出答卷的脚本。
 
 ## 许可

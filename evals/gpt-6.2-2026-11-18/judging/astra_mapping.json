@@ -1,0 +1,98 @@
+{
+  "eval-101-phone-charging": {
+    "A": "skill_agents",
+    "B": "talk_normal",
+    "C": "skill",
+    "D": "none"
+  },
+  "eval-102-signature": {
+    "A": "skill",
+    "B": "none",
+    "C": "skill_agents",
+    "D": "talk_normal"
+  },
+  "eval-103-acceleration": {
+    "A": "skill",
+    "B": "talk_normal",
+    "C": "skill_agents",
+    "D": "none"
+  },
+  "eval-104-homework-annoyed": {
+    "A": "skill_agents",
+    "B": "none",
+    "C": "talk_normal",
+    "D": "skill"
+  },
+  "eval-105-dinner-gift": {
+    "A": "talk_normal",
+    "B": "skill_agents",
+    "C": "skill",
+    "D": "none"
+  },
+  "eval-106-long-johns": {
+    "A": "none",
+    "B": "talk_normal",
+    "C": "skill",
+    "D": "skill_agents"
+  },
+  "eval-107-hair-in-food": {
+    "A": "talk_normal",
+    "B": "none",
+    "C": "skill_agents",
+    "D": "skill"
+  },
+  "eval-108-cram-tonight": {
+    "A": "skill",
+    "B": "talk_normal",
+    "C": "none",
+    "D": "skill_agents"
+  },
+  "eval-109-pandas-leading-zero": {
+    "A": "skill_agents",
+    "B": "none",
+    "C": "talk_normal",
+    "D": "skill"
+  },
+  "eval-110-win11-c-drive": {
+    "A": "none",
+    "B": "talk_normal",
+    "C": "skill",
+    "D": "skill_agents"
+  },
+  "eval-111-listening-practice": {
+    "A": "talk_normal",
+    "B": "skill",
+    "C": "skill_agents",
+    "D": "none"
+  },
+  "eval-112-independent-vs-exclusive": {
+    "A": "talk_normal",
+    "B": "skill_agents",
+    "C": "none",
+    "D": "skill"
+  },
+  "eval-113-after-hours-chat": {
+    "A": "skill_agents",
+    "B": "skill",
+    "C": "talk_normal",
+    "D": "none"
+  },
+  "eval-114-ai-for-beginners": {
+    "A": "skill_agents",
+    "B": "none",
+    "C": "skill",
+    "D": "talk_normal"
+  },
+  "eval-115-phone-all-day": {
+    "A": "none",
+    "B": "skill",
+    "C": "skill_agents",
+    "D": "talk_normal"
+  },
+  "eval-116-noodles-no-seasoning": {
+    "A": "skill_agents",
+    "B": "skill",
+    "C": "none",
+    "D": "talk_normal"
+  }
+}

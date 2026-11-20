@@ -1,0 +1,510 @@
+[
+  {
+    "q": 101,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "q": 102,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "A",
+      "C",
+      "D",
+      "B"
+    ]
+  },
+  {
+    "q": 103,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ]
+  },
+  {
+    "q": 104,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 4,
+        "flags": [
+          "C"
+        ],
+        "evidence": "我陪你看看先做哪项。"
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  {
+    "q": 105,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  {
+    "q": 106,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ]
+  },
+  {
+    "q": 107,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 4,
+        "flags": [
+          "G"
+        ],
+        "evidence": "协商无果就请平台客服介入。"
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  {
+    "q": 108,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  {
+    "q": 109,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "q": 110,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 4,
+        "flags": [
+          "L"
+        ],
+        "evidence": "第一轮只勾选「临时文件」「缩略图」「传递优化文件」这几项，看到哪项就选哪项，再点「删除文件」。"
+      }
+    },
+    "ranking": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "q": 111,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 4,
+        "flags": [
+          "L"
+        ],
+        "evidence": "剩下的时间盲听同一节目里没听过的一小段，记下第一遍抓到的细节。\n\n过一周，用同样难度的新片段试一遍。"
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  {
+    "q": 112,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ]
+  },
+  {
+    "q": 113,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 4,
+        "flags": [
+          "G"
+        ],
+        "evidence": "把这叫“责任心”，是在拿道德压力要求员工随时在线。"
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  {
+    "q": 114,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "B",
+      "C",
+      "A"
+    ]
+  },
+  {
+    "q": 115,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 4,
+        "flags": [
+          "C"
+        ],
+        "evidence": "在呢，陪你聊会儿。"
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  {
+    "q": 116,
+    "answers": {
+      "A": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "B": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "C": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      },
+      "D": {
+        "score": 5,
+        "flags": [],
+        "evidence": ""
+      }
+    },
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ]
+  }
+]
